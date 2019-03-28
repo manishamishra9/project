@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="node" value="http://192.168.107.128:8080/wd/hub"/>
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="Scripts.validLogin">
+        <methods>
+          <include name="openApplication"/>
+          <include name="closeappliacation"/>
+          <include name="launchbrowres" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- Scripts.validLogin -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

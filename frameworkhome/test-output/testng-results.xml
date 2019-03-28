@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="10205" started-at="2019-03-15T13:03:31Z" finished-at="2019-03-15T13:03:42Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="10205" started-at="2019-03-15T13:03:31Z" finished-at="2019-03-15T13:03:42Z">
+      <class name="Scripts.validLogin">
+        <test-method status="PASS" signature="openApplication()[pri:0, instance:Scripts.validLogin@b7dd107]" name="openApplication" is-config="true" duration-ms="9514" started-at="2019-03-15T13:03:31Z" finished-at="2019-03-15T13:03:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method status="FAIL" signature="launchbrowres(java.lang.String, java.lang.String)[pri:0, instance:Scripts.validLogin@b7dd107]" name="launchbrowres" duration-ms="102" started-at="2019-03-15T13:03:41Z" finished-at="2019-03-15T13:03:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://192.168.107.128:8080/wd/hub]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.UnsupportedCommandException">
+            <message>
+              <![CDATA[<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!-- $Id: Error.jsp,v 1.2 2006/03/03 06:41:45 sperumal Exp $-->
+<html>
+<head>
+  <title>Zoho CRM - Error</title>
+  <meta http-equiv="Content-Type"
+ content="text/html; charset=iso-8859-1">
+  <meta http-equiv="Pragma" content="no-cache">
+  <link href="/crm/css/blue_banner.css" rel="stylesheet" type="text/css">
+</head>
+<body leftmargin="0" topmargin="0" class="bodyBg" marginheight="0"
+ marginwidth="0">
+<table width="98%" height="100%" border="0" align="center"
+ cellpadding="0" cellspacing="0"
+ style="background-color: rgb(255, 255, 255);">
+  <tbody>
+    <tr>
+      <td height="400" align="center" valign="middle"
+ class="layoutBorder" style="padding-bottom: 10px;">
+      <table border="0" cellpadding="0" cellspacing="0" width="670">
+        <tbody>
+          <tr align="left">
+            <td class="signinTxt" style="color: rgb(0, 0, 0);">
+            <table border="0" cellspacing="0" cellpadding="0"
+ width="100%" background="/crm/images/genPgBg.gif">
+              <tbody>
+                <tr>
+                  <td><img src="/crm/images/genPgLeft.gif"></td>
+                  <td><img src="/crm/images/genPgLogo.gif"
+ alt="Zoho CRM" title="Zoho CRM" border="0"></td>
+                  <td><img src="/crm/images/genPgError.gif"
+ alt="Errors" title="Errors" style="border: 0px solid ;"></td>
+                  <td width="100%" align="right" class="normalTxt"> <br>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            </td>
+            <td align="right" nowrap="nowrap" valign="middle"> <br>
+            </td>
+          </tr>
+          <tr>
+            <td height="180" colspan="2" align="center" valign="top">
+            <table border="0" cellpadding="0" cellspacing="0"
+ width="100%">
+              <tbody>
+                <tr>
+                  <td align="left" valign="top">
+                  <table cellpadding="5" cellspacing="5" width="100%"
+ style="border-top: 1px solid rgb(204, 204, 204);">
+                    <tbody>
+                      <tr>
+                        <td class="NormalTxt"><br>
+                        <div align="center"><b>Sorry, the page you have requested was not found.</b>
+                        </div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td height="73" align="center" class="NormalTxt"><br>
+Please check the URL for proper spelling and capitalization.<br>
+                        <br>
+If you're having trouble locating a destination on Zoho CRM, try
+visiting the Zoho CRM home page.<br>
+                        <br>
+Go to <a href="/crm/ShowHomePage.do">Home Page</a>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            </td>
+          </tr>
+          <tr>
+            <td height="50" colspan="2"><br>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      </td>
+    </tr>
+  </tbody>
+</table>
+</body>
+</html>
+
+Command duration or timeout: 75 milliseconds
+Build info: version: '2.43.1', revision: '5163bceef1bc36d43f3dc0b83c88998168a363a0', time: '2014-09-10 09:43:55'
+System info: host: 'DESKTOP-GAMJ8L6', ip: '192.168.58.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.UnsupportedCommandException: <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!-- $Id: Error.jsp,v 1.2 2006/03/03 06:41:45 sperumal Exp $-->
+<html>
+<head>
+  <title>Zoho CRM - Error</title>
+  <meta http-equiv="Content-Type"
+ content="text/html; charset=iso-8859-1">
+  <meta http-equiv="Pragma" content="no-cache">
+  <link href="/crm/css/blue_banner.css" rel="stylesheet" type="text/css">
+</head>
+<body leftmargin="0" topmargin="0" class="bodyBg" marginheight="0"
+ marginwidth="0">
+<table width="98%" height="100%" border="0" align="center"
+ cellpadding="0" cellspacing="0"
+ style="background-color: rgb(255, 255, 255);">
+  <tbody>
+    <tr>
+      <td height="400" align="center" valign="middle"
+ class="layoutBorder" style="padding-bottom: 10px;">
+      <table border="0" cellpadding="0" cellspacing="0" width="670">
+        <tbody>
+          <tr align="left">
+            <td class="signinTxt" style="color: rgb(0, 0, 0);">
+            <table border="0" cellspacing="0" cellpadding="0"
+ width="100%" background="/crm/images/genPgBg.gif">
+              <tbody>
+                <tr>
+                  <td><img src="/crm/images/genPgLeft.gif"></td>
+                  <td><img src="/crm/images/genPgLogo.gif"
+ alt="Zoho CRM" title="Zoho CRM" border="0"></td>
+                  <td><img src="/crm/images/genPgError.gif"
+ alt="Errors" title="Errors" style="border: 0px solid ;"></td>
+                  <td width="100%" align="right" class="normalTxt"> <br>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            </td>
+            <td align="right" nowrap="nowrap" valign="middle"> <br>
+            </td>
+          </tr>
+          <tr>
+            <td height="180" colspan="2" align="center" valign="top">
+            <table border="0" cellpadding="0" cellspacing="0"
+ width="100%">
+              <tbody>
+                <tr>
+                  <td align="left" valign="top">
+                  <table cellpadding="5" cellspacing="5" width="100%"
+ style="border-top: 1px solid rgb(204, 204, 204);">
+                    <tbody>
+                      <tr>
+                        <td class="NormalTxt"><br>
+                        <div align="center"><b>Sorry, the page you have requested was not found.</b>
+                        </div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td height="73" align="center" class="NormalTxt"><br>
+Please check the URL for proper spelling and capitalization.<br>
+                        <br>
+If you're having trouble locating a destination on Zoho CRM, try
+visiting the Zoho CRM home page.<br>
+                        <br>
+Go to <a href="/crm/ShowHomePage.do">Home Page</a>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            </td>
+          </tr>
+          <tr>
+            <td height="50" colspan="2"><br>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      </td>
+    </tr>
+  </tbody>
+</table>
+</body>
+</html>
+
+Command duration or timeout: 75 milliseconds
+Build info: version: '2.43.1', revision: '5163bceef1bc36d43f3dc0b83c88998168a363a0', time: '2014-09-10 09:43:55'
+System info: host: 'DESKTOP-GAMJ8L6', ip: '192.168.58.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:240)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:126)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:153)
+at Scripts.validLogin.launchbrowres(validLogin.java:33)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.UnsupportedCommandException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchbrowres -->
+        <test-method status="PASS" signature="closeappliacation(org.testng.ITestResult)[pri:0, instance:Scripts.validLogin@b7dd107]" name="closeappliacation" is-config="true" duration-ms="486" started-at="2019-03-15T13:03:41Z" finished-at="2019-03-15T13:03:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=launchbrowres status=FAILURE method=validLogin.launchbrowres(java.lang.String, java.lang.String)[pri:0, instance:Scripts.validLogin@b7dd107] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeappliacation -->
+      </class> <!-- Scripts.validLogin -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

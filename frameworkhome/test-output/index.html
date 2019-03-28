@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Suite">
+              <span class="suite-name border-failed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Suite">
+                    <span>C:\Users\Home\Desktop\javaselenium\frameworkhome\testnggrid.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">1 method, 1 failed,   </span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Scripts.validLogin" hash-for-method="launchbrowres(http://192.168.107.128:8080/wd/hub, firefox)">launchbrowres(http://192.168.107.128:8080/wd/hub, firefox)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">Scripts.validLogin</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="launchbrowres(http://192.168.107.128:8080/wd/hub, firefox)">
+                  </a> <!-- launchbrowres(http://192.168.107.128:8080/wd/hub, firefox) -->
+                  <span class="method-name">launchbrowres</span>
+                  <span class="parameters">(http://192.168.107.128:8080/wd/hub, firefox)</span>
+                  <div class="stack-trace">org.openqa.selenium.UnsupportedCommandException: &lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.01 Transitional//EN&quot;&gt;
+&lt;!-- $Id: Error.jsp,v 1.2 2006/03/03 06:41:45 sperumal Exp $--&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;title&gt;Zoho CRM - Error&lt;/title&gt;
+  &lt;meta http-equiv=&quot;Content-Type&quot;
+ content=&quot;text/html; charset=iso-8859-1&quot;&gt;
+  &lt;meta http-equiv=&quot;Pragma&quot; content=&quot;no-cache&quot;&gt;
+  &lt;link href=&quot;/crm/css/blue_banner.css&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot;&gt;
+&lt;/head&gt;
+&lt;body leftmargin=&quot;0&quot; topmargin=&quot;0&quot; class=&quot;bodyBg&quot; marginheight=&quot;0&quot;
+ marginwidth=&quot;0&quot;&gt;
+&lt;table width=&quot;98%&quot; height=&quot;100%&quot; border=&quot;0&quot; align=&quot;center&quot;
+ cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;
+ style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td height=&quot;400&quot; align=&quot;center&quot; valign=&quot;middle&quot;
+ class=&quot;layoutBorder&quot; style=&quot;padding-bottom: 10px;&quot;&gt;
+      &lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; width=&quot;670&quot;&gt;
+        &lt;tbody&gt;
+          &lt;tr align=&quot;left&quot;&gt;
+            &lt;td class=&quot;signinTxt&quot; style=&quot;color: rgb(0, 0, 0);&quot;&gt;
+            &lt;table border=&quot;0&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot;
+ width=&quot;100%&quot; background=&quot;/crm/images/genPgBg.gif&quot;&gt;
+              &lt;tbody&gt;
+                &lt;tr&gt;
+                  &lt;td&gt;&lt;img src=&quot;/crm/images/genPgLeft.gif&quot;&gt;&lt;/td&gt;
+                  &lt;td&gt;&lt;img src=&quot;/crm/images/genPgLogo.gif&quot;
+ alt=&quot;Zoho CRM&quot; title=&quot;Zoho CRM&quot; border=&quot;0&quot;&gt;&lt;/td&gt;
+                  &lt;td&gt;&lt;img src=&quot;/crm/images/genPgError.gif&quot;
+ alt=&quot;Errors&quot; title=&quot;Errors&quot; style=&quot;border: 0px solid ;&quot;&gt;&lt;/td&gt;
+                  &lt;td width=&quot;100%&quot; align=&quot;right&quot; class=&quot;normalTxt&quot;&gt; &lt;br&gt;
+                  &lt;/td&gt;
+                &lt;/tr&gt;
+              &lt;/tbody&gt;
+            &lt;/table&gt;
+            &lt;/td&gt;
+            &lt;td align=&quot;right&quot; nowrap=&quot;nowrap&quot; valign=&quot;middle&quot;&gt; &lt;br&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td height=&quot;180&quot; colspan=&quot;2&quot; align=&quot;center&quot; valign=&quot;top&quot;&gt;
+            &lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;
+ width=&quot;100%&quot;&gt;
+              &lt;tbody&gt;
+                &lt;tr&gt;
+                  &lt;td align=&quot;left&quot; valign=&quot;top&quot;&gt;
+                  &lt;table cellpadding=&quot;5&quot; cellspacing=&quot;5&quot; width=&quot;100%&quot;
+ style=&quot;border-top: 1px solid rgb(204, 204, 204);&quot;&gt;
+                    &lt;tbody&gt;
+                      &lt;tr&gt;
+                        &lt;td class=&quot;NormalTxt&quot;&gt;&lt;br&gt;
+                        &lt;div align=&quot;center&quot;&gt;&lt;b&gt;Sorry, the page you have requested was not found.&lt;/b&gt;
+                        &lt;/div&gt;
+                        &lt;/td&gt;
+                      &lt;/tr&gt;
+                      &lt;tr&gt;
+                        &lt;td height=&quot;73&quot; align=&quot;center&quot; class=&quot;NormalTxt&quot;&gt;&lt;br&gt;
+Please check the URL for proper spelling and capitalization.&lt;br&gt;
+                        &lt;br&gt;
+If you&apos;re having trouble locating a destination on Zoho CRM, try
+visiting the Zoho CRM home page.&lt;br&gt;
+                        &lt;br&gt;
+Go to &lt;a href=&quot;/crm/ShowHomePage.do&quot;&gt;Home Page&lt;/a&gt;
+                        &lt;br&gt;
+                        &lt;br&gt;
+                        &lt;br&gt;
+                        &lt;br&gt;
+                        &lt;/td&gt;
+                      &lt;/tr&gt;
+                    &lt;/tbody&gt;
+                  &lt;/table&gt;
+                  &lt;/td&gt;
+                &lt;/tr&gt;
+              &lt;/tbody&gt;
+            &lt;/table&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td height=&quot;50&quot; colspan=&quot;2&quot;&gt;&lt;br&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+        &lt;/tbody&gt;
+      &lt;/table&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+
+Command duration or timeout: 75 milliseconds
+Build info: version: &apos;2.43.1&apos;, revision: &apos;5163bceef1bc36d43f3dc0b83c88998168a363a0&apos;, time: &apos;2014-09-10 09:43:55&apos;
+System info: host: &apos;DESKTOP-GAMJ8L6&apos;, ip: &apos;192.168.58.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_201&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:240)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:126)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:153)
+	at Scripts.validLogin.launchbrowres(validLogin.java:33)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Home\Desktop\javaselenium\frameworkhome\testnggrid.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Suite&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
+    &lt;parameter name=&quot;node&quot; value=&quot;http://192.168.107.128:8080/wd/hub&quot;/&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;firefox&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Scripts.validLogin&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(1);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'launchbrowres')
+data.setCell(0, 2, 'Scripts.validLogin')
+data.setCell(0, 3, 102);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 102 ms</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">Scripts.validLogin</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">openApplication</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">launchbrowres(http://192.168.107.128:8080/wd/hub, firefox)</span>
+                <span class="method-start">9514 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeappliacation([TestResult name=launchbrowres status=FAILURE method=validLogin.launchbrowres(java.lang.String, java...)</span>
+                <span class="method-start">9647 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
